@@ -13,6 +13,7 @@ module.exports = {
 	projectName: "discord-bot-guide", // Usually your repo name.
 	themeConfig: {
 		hideableSidebar: true,
+		// sidebarCollapsible: false, unhide for false
 		navbar: {
 			title: "Discord Bot Guide",
 			logo: {

@@ -8,22 +8,24 @@ slug: /
 
 ---
 
-## Hello from Docusaurus
+## Hello from DeepWebDevelopers
 
-Are you ready to create the documentation site for your open source project?
+Before we venture on our journery to becoming amazing Discord Developers you must understand some important concepts about the documentation.
 
-### Headers
+Are are writing from the perspective of _you know the basics always_.
+This means, although we will explain and walk you though the lesson, you will be taught the fundementals of programming. Such as variables, functions, etc. So many sure you have a basic knowledge of thoughs things before jumping into creating a Discord bot.
 
-will show up on the table of contents on the upper right
+### Resources
 
-So that your users will know what this page is all about without scrolling down or even without reading too much.
+If you want to sharpen your skillsbefore jumping into the docs I can remcomend a few resources.
 
-### Only h2 and h3 will be in the toc
+- [FreeCodeCamp - Many Different languages](https://www.freecodecamp.org/)
+- [Node chool - Useful Javascript and nodejs information](nodeschool.io/)
+- [Learn python](https://www.learnpython.org/)
+- [Or just use google!](https://www.google.com)
 
-The headers are well-spaced so that the hierarchy is clear.
+After learning your language on a basic level you can have a lot more fun with the documentation!
 
-- lists will help you
-- present the key points
-- that you want your users to remember
-  - and you may nest them
-    - multiple times
+## Lets get coding!
+
+![Coding gif](https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif)
