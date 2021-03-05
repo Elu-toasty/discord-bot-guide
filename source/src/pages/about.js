@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
-
+import Link from "@docusaurus/Link";
 function About() {
 	return (
 		<Layout title="Hello">
@@ -14,6 +14,7 @@ function About() {
 				}}
 			>
 				<p>More information coming soon!</p>
+				For now check out <Link to={"/docs/"}>Our Docs!</Link>
 			</div>
 		</Layout>
 	);
