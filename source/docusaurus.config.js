@@ -1,6 +1,6 @@
 module.exports = {
 	title: "Discord Bot Guide",
-	tagline: "Helping you build discord bots",
+	tagline: "Helping You Build Discord Bots",
 	url: "https://deepwebdevelopers.github.io/", // domain
 	baseUrl: "/discord-bot-guide/", // The base url for the website after github
 	// GIT_USER: "ThatGuyJamal", // The user who has access to deploy the site

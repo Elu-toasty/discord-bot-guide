@@ -82,7 +82,7 @@ function Home() {
 						</Link>
 					</div>
 					<br></br>
-					<h4>Site is still in alpha. Not everything is complete.</h4>
+					<h4>Made by the Community for the Community</h4>
 				</div>
 			</header>
 			<main>

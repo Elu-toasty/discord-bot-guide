@@ -1,11 +1,10 @@
 ![DeepWebDevelopers, Logo](./assets/logo.png)
 
-# *Branch in development*
+# _Branch in development_
 
-# Offical `DeepWebDeveloper's` guide for discord Bot Building
+Offical `DeepWebDeveloper's` guide for discord Bot Building
 
 ## Discord Bot Guide
-
 
 Thanks for checking out our github page! The Discord Bot Guide was orginially created by [ThatGuyJamal](https://github.com/ThatGuyJamal). He is a fellow software enginner and Highschool student.
 
