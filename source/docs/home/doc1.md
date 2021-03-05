@@ -10,10 +10,10 @@ slug: /
 
 ## Hello from [DeepWebDevelopers](https://github.com/DeepWebDevelopers)
 
-Before we venture on our journery to becoming amazing Discord Developers you must understand some important concepts about the documentation.
+Before we venture on our journey to becoming amazing Discord Developers you must understand some important concepts about the documentation.
 
-We are writing from the perspective of _"you know the basics always"_.
-This means, although we will explain and walk you though the concepts, you will **not** be taught the fundementals of programming. Such as variables, functions, etc. So make sure you have a basic knowledge of your language before jumping into creating a Discord bot.
+We are writing from the perspective of _"you already understand the basics"_.
+This means, although we will explain and walk you through the concepts, you will **not** be taught the fundamentals of programming. Such as variables, functions, etc. So make sure you have a basic knowledge of your language before jumping into creating a Discord bot.
 
 ### Resources
 
@@ -21,6 +21,7 @@ If you want to sharpen your skills before starting the docs we can remcomend a f
 
 - [FreeCodeCamp - Many Different languages](https://www.freecodecamp.org/)
 - [Node chool - Useful Javascript and nodejs information](https://nodeschool.io/)
+- [Udemy- Great Courses for Languages](https://www.udemy.com/)
 - [Learn python](https://www.learnpython.org/)
 - [Or just use google!](https://www.google.com)
 

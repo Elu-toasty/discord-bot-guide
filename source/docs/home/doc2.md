@@ -10,15 +10,15 @@ That's great, the project is in [alpha](https://deepwebdevelopers.github.io/disc
 
 ### Things to know before continuing
 
-**One:** You must have the [Discord](https://discord.com/) account and a [Github](https://github.com/) account to join the team. These are both applications we will be using daily.
+**One:** You must have a [Discord](https://discord.com/) account and a [Github](https://github.com/) account to join the team. These are both applications we will be using daily.
 
 **Two:** You must have some knowledge of programming in a Discord supported language - `javascript, python, java, etc`. We are looking for people who are capable of teaching others how to learn, this means you must have a strong understanding of the content before hand.
 
 _We are willing to accept programmers who dont know Discord API as long as they have the proper skills to learn._
 
-**Three:** You must be thirteen years or older to apply.
+**Three:** You must be 13+ or older to apply.
 
-**_Why?_** There must be a limitation on muturity for our developer team. Discord does not allow 12 year olds or younger to use the platform either.
+**_Why?_** There must be a limitation on maturity for our developer team. Furthermore Discord people of age 12 or younger to use the platform either.
 
 ![All Good gif](https://media.giphy.com/media/S3J9D4Rdaw3E7r2qTi/giphy.gif)
 
@@ -34,4 +34,4 @@ If you dont have any programming skills but you still want to contribute to our 
 
 ## Contribute without joining us?
 
-If you want to help use or fix a simple error without joining or committing to the team you can. Start a [pull request](https://github.com/DeepWebDevelopers/discord-bot-guide/pulls) on our github and we will review it. If we like the new content, we will psuh it to the site!
+If you want to help us or fix a simple error without joining or committing to the team you can. Start a [pull request](https://github.com/DeepWebDevelopers/discord-bot-guide/pulls) on our github and we will review it. If we like the new content, we will push it to the site!
