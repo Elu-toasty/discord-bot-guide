@@ -6,7 +6,7 @@ module.exports = {
 	// GIT_USER: "ThatGuyJamal", // The user who has access to deploy the site
 	// DEPLOYMENT_BRANCH: "gh-pages", // The branch the website is hosted on.
 	// CURRENT_BRANCH: "alpha",
-	onBrokenLinks: "throw",
+	onBrokenLinks: "warn",
 	onBrokenMarkdownLinks: "throw",
 	favicon: "img/favicon.ico",
 	organizationName: "DeepWebDevelopers", // Usually your GitHub org/user name.

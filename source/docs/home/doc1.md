@@ -20,7 +20,7 @@ This means, although we will explain and walk you though the lesson, you will be
 If you want to sharpen your skillsbefore jumping into the docs I can remcomend a few resources.
 
 - [FreeCodeCamp - Many Different languages](https://www.freecodecamp.org/)
-- [Node chool - Useful Javascript and nodejs information](nodeschool.io/)
+- [Node chool - Useful Javascript and nodejs information](https://nodeschool.io/)
 - [Learn python](https://www.learnpython.org/)
 - [Or just use google!](https://www.google.com)
 
