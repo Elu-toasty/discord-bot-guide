@@ -30,7 +30,7 @@ If you meet all the required skills above then please use [this link](https://do
 
 ## Contribute without programming?
 
-If you dont have any programming skills but you still want to contribute to our [team](https://deepwebdevelopers.github.io/discord-bot-guide/team) you can! We have many donation options available such as paypal and cashapp. _( both coming soon)_
+If you dont have any programming skills but you still want to contribute to our [team](/team) you can! We have many donation options available such as paypal and cashapp. _( both coming soon)_
 
 ## Contribute without joining us?
 

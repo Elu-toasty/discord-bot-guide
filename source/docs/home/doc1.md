@@ -28,10 +28,12 @@ After learning your language on a basic level you can have a lot more fun with t
 
 ## Pick Your language
 
-- If you want to learn [Javascript](https://deepwebdevelopers.github.io/discord-bot-guide/docs/js/s1/doc-byb-js)
-- If you want to learn [Python](https://deepwebdevelopers.github.io/discord-bot-guide/docs/py/s1/doc-py-byb)
-- If you want to learn [Java](https://deepwebdevelopers.github.io/discord-bot-guide/docs/java/s1/doc-byb-java)
-- If you want to learn [Typescript](https://deepwebdevelopers.github.io/discord-bot-guide/docs/ts/s1/doc-byb-ts)
+<!-- Sends the user to a guide -->
+
+- If you want to learn [Javascript](js/s1/doc-byb-js)
+- If you want to learn [Python](py/s1/doc-py-byb)
+- If you want to learn [Java](/java/s1/doc-byb-java)
+- If you want to learn [Typescript](/ts/s1/doc-byb-ts)
 - More coming soon!
 
 ## Lets get coding!
