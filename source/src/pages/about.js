@@ -13,8 +13,10 @@ function About() {
 					fontSize: "20px",
 				}}
 			>
-				<p>More information coming soon!</p>
-				For now check out <Link to={"/docs/"}>Our Docs!</Link>
+				<p>
+					<b>Coming soon...</b> <br></br>For now check out{" "}
+					<Link to={"/docs/"}>Our Docs!</Link>
+				</p>
 			</div>
 		</Layout>
 	);
