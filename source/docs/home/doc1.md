@@ -8,7 +8,7 @@ slug: /
 
 ---
 
-## Hello from DeepWebDevelopers
+## Hello from [DeepWebDevelopers](https://github.com/DeepWebDevelopers)
 
 Before we venture on our journery to becoming amazing Discord Developers you must understand some important concepts about the documentation.
 
