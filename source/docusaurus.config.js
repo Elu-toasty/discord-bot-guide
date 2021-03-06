@@ -12,6 +12,10 @@ module.exports = {
 	organizationName: "DeepWebDevelopers", // Usually your GitHub org/user name.
 	projectName: "discord-bot-guide", // Usually your repo name.
 	themeConfig: {
+		// Allows us to add markdown highlighting for more languages.
+		prism: {
+			additionalLanguages: ["powershell", "java", "ruby", "go"],
+		},
 		hideableSidebar: true,
 		// sidebarCollapsible: false, unhide for false
 		navbar: {

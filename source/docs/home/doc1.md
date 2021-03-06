@@ -8,7 +8,7 @@ slug: /
 
 ---
 
-## Hello from [DeepWebDevelopers](https://github.com/DeepWebDevelopers)
+## Intro from [DeepWebDevelopers](https://github.com/DeepWebDevelopers)
 
 Before we venture on our journey to becoming amazing Discord Developers you must understand some important concepts about the documentation.
 
@@ -27,7 +27,7 @@ If you want to sharpen your skills before starting the docs we can remcomend a f
 
 After learning your language on a basic level you can have a lot more fun with the documentation!
 
-## Pick Your language
+### Pick Your language
 
 <!-- Sends the user to a guide -->
 
@@ -37,6 +37,18 @@ After learning your language on a basic level you can have a lot more fun with t
 - If you want to learn [Typescript](ts/s1/doc-byb-ts)
 - More coming soon!
 
-## Lets get coding!
+### Helpful Dev Tools
+
+As a developer we all work to make life **easy**. If there is some program out their that does "x" 5x faster then I want it!
+
+Here are a few tools that I use on a daily to make life much easier.
+
+| Name                                      | Description                                                                          |
+| ----------------------------------------- | ------------------------------------------------------------------------------------ |
+| [Vs-Code](https://code.visualstudio.com/) | A profesinal code editor built and maintained by microsoft.                          |
+| [Github](https://github.com/)             | An Internet hosting platofrm for software development and version control using Git. |
+| [Code-Pen](https://codepen.io/)           | A great way to test and share HTML, CSS, and JavaScript from the brower.             |
+
+**Lets get coding!**
 
 ![Coding gif](https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif)
