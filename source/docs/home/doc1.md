@@ -12,6 +12,13 @@ slug: /
 
 Before we venture on our journey to becoming amazing Discord Developers you must understand some important concepts about the documentation.
 
+This guide will teach you things such as:
+
+- How to get a bot up and running from scratch;
+- How to properly create, organize, and expand on your commands;
+- How to use the best practices for common situations;
+  and much more.
+
 We are writing from the perspective of _"you already understand the basics"_.
 This means, although we will explain and walk you through the concepts, you will **not** be taught the fundamentals of programming. Such as variables, functions, etc. So make sure you have a basic knowledge of your language before jumping into creating a Discord bot.
 
