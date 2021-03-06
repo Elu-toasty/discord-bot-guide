@@ -14,10 +14,9 @@ module.exports = {
 	themeConfig: {
 		// Allows us to add markdown highlighting for more languages.
 		prism: {
-			additionalLanguages: ["powershell", "java", "ruby", "go"],
+			additionalLanguages: ["powershell", "java", "ruby", "go", "groovy"],
 		},
 		hideableSidebar: true,
-		// sidebarCollapsible: false, unhide for false
 		navbar: {
 			title: "Discord Bot Guide",
 			logo: {
