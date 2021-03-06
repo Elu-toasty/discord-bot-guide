@@ -1,20 +1,24 @@
 module.exports = {
 	title: "Discord Bot Guide",
-	tagline: "Helping you build discord bots",
-	url: "https://deepwebdevelopers.github.io/discordjs-guide/",
-	baseUrl: "/discord-bot-guide/",
-	onBrokenLinks: "throw",
+	tagline: "Helping You Build Discord Bots",
+	url: "https://deepwebdevelopers.github.io/", // domain
+	baseUrl: "/discord-bot-guide/", // The base url for the website after github
+	// GIT_USER: "ThatGuyJamal", // The user who has access to deploy the site
+	// DEPLOYMENT_BRANCH: "gh-pages", // The branch the website is hosted on.
+	// CURRENT_BRANCH: "alpha",
+	onBrokenLinks: "warn",
 	onBrokenMarkdownLinks: "throw",
 	favicon: "img/favicon.ico",
 	organizationName: "DeepWebDevelopers", // Usually your GitHub org/user name.
 	projectName: "discord-bot-guide", // Usually your repo name.
 	themeConfig: {
-		hideableSidebar: true,
+		// Allows us to add markdown highlighting for more languages.
 		prism: {
-			additionalLanguages: ['java', 'groovy'],
+			additionalLanguages: ["powershell", "java", "ruby", "go", "groovy"],
 		},
+		hideableSidebar: true,
 		navbar: {
-			title: "Discord Bot Guild",
+			title: "Discord Bot Guide",
 			logo: {
 				alt: "My Site Logo",
 				src: "img/favicon.png",
@@ -96,12 +100,14 @@ module.exports = {
 				docs: {
 					sidebarPath: require.resolve("./sidebars.js"),
 					// Please change this to your repo.
-					editUrl: ".",
+					editUrl:
+						"https://github.com/DeepWebDevelopers/discord-bot-guide/tree/alpha/source",
 				},
 				blog: {
 					showReadingTime: true,
 					// Please change this to your repo.
-					editUrl: ".",
+					editUrl:
+						"https://github.com/DeepWebDevelopers/discord-bot-guide/tree/alpha/source",
 					feedOptions: {
 						type: "all",
 						copyright: `Copyright © ${new Date().getFullYear()} DeepWebDevelopers, Inc.`,

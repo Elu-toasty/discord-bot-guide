@@ -22,7 +22,7 @@ module.exports = {
 			//? s1
 			"py/s1/doc-py-byb",
 			{
-				// Installation: [""],
+				Preperations: ["py/s1/installings/doc-py-deps"],
 			},
 		],
 		Java: [

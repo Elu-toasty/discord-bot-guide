@@ -6,14 +6,18 @@ sidebar_label: Requesting more content
 
 ---
 
-## How to request more content
+## Can I request updates?
 
-There are a few different ways but here are the two main options.
+Yes! We are always looking for new suggestions, improvments, and features for our documentation.
 
-### Option One
+### Github
 
-Make a `pull request` on our github. Thats the easiest way to request something. As developers we are contantily checking the github. [Click Here](https://github.com/DeepWebDevelopers/discord-bot-guide/pulls) to make a pull request.
+Github is a great place to make a feature request. Simply go to our [github](https://github.com/DeepWebDevelopers/discord-bot-guide/discussions) and start one! (_Make s_)
 
-### Option Two
+### Discord
 
-Submit a pull request in our Discord Server.
+If you prefer to use [Discord](https://discord.com/invite/NbqBQbaejS) to help us you can! Join our server and request some content!
+
+## I found a Bug!
+
+To report a bug or error with some of our code / documentation then please [submit an issue](https://github.com/DeepWebDevelopers/discord-bot-guide/issues). Keep in mind this only applies if it's a problem on **Our** end. This is not a place to get **Help** with code. That can be done in our discord server.
