@@ -6,7 +6,7 @@ sidebar_label: Contribute
 
 **_Hey there! Want to contribute to the documentation?_**
 
-That's great, the project is in [alpha](https://deepwebdevelopers.github.io/discord-bot-guide/blog/2021/03/04/Alpha) also we are always looking to add to contributors.
+That's great, the project is in [alpha](/blog/2021/03/04/Alpha) also we are always looking to add to contributors.
 
 ### Things to know before continuing
 
