@@ -1,6 +1,7 @@
 ---
-id: doc-py
-title: What to know
+id: doc-py-deps
+sidebar_label: What to install
+title: Setup
 ---
 
 ---

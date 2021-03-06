@@ -101,14 +101,12 @@ module.exports = {
 				docs: {
 					sidebarPath: require.resolve("./sidebars.js"),
 					// Please change this to your repo.
-					editUrl:
-						"https://github.com/DeepWebDevelopers/discord-bot-guide/tree/alpha/source/docs",
+					editUrl: "https://github.com/DeepWebDevelopers/discord-bot-guide",
 				},
 				blog: {
 					showReadingTime: true,
 					// Please change this to your repo.
-					editUrl:
-						"https://github.com/DeepWebDevelopers/discord-bot-guide/tree/alpha/source/blog",
+					editUrl: "https://github.com/DeepWebDevelopers/discord-bot-guide",
 					feedOptions: {
 						type: "all",
 						copyright: `Copyright © ${new Date().getFullYear()} DeepWebDevelopers, Inc.`,
