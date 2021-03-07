@@ -29,5 +29,7 @@ Of course, you need a place to actually write the code! Some free choices includ
 - [Visual Studio](https://code.visualstudio.com/)
 - [Pycharm](https://www.jetbrains.com/pycharm-edu/)
 - [Sublime Text](https://www.sublimetext.com/)
+- [Repl](https://repl.it/)
+- [Glitch](https://glitch.com/)
 
 I'm sure there are separate documents for each of those programs, so learn how to set those up, and come back once you're done.
