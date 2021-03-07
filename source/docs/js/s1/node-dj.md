@@ -2,6 +2,7 @@
 id: doc-dj-node
 title: First Steps
 sidebar_label: Installing node js & Discord
+author: ThatGuyJamal
 ---
 
 ---
@@ -257,7 +258,7 @@ Linter docs page: [click me](/docs/js/s1/installings/doc-linter)
 </TabItem>
 </Tabs>
 
-<!-- ## ...
+<!--? Keeping for later ## ...
 
 <Tabs
 groupId="operating-systems"

@@ -1,6 +1,7 @@
 ---
 id: doc2
 title: Become a Contributor
+author: ThatGuyJamal
 sidebar_label: Contribute
 ---
 

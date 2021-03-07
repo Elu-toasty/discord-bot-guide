@@ -18,11 +18,42 @@ module.exports = {
 		hideableSidebar: true,
 		// Sets the collor settings for the site
 		colorMode: {
+			// "light" | "dark"
 			defaultMode: "dark",
 			// Allows the user to configer the site dark and light mode
 			disableSwitch: false,
+			// Should we use the prefers-color-scheme media-query,
+			// using user system preferences, instead of the hardcoded defaultMode
 			respectPrefersColorScheme: true,
+			// Dark/light switch icon options
+			switchConfig: {
+				// Icon for the switch while in dark mode
+				darkIcon: "🌙",
+
+				// CSS to apply to dark icon,
+				// React inline style object
+				// see https://reactjs.org/docs/dom-elements.html#style
+				darkIconStyle: {
+					marginLeft: "2px",
+				},
+
+				// Unicode icons such as '\u2600' will work
+				// Unicode with 5 chars require brackets: '\u{1F602}'
+				lightIcon: "\u{1F602}",
+
+				lightIconStyle: {
+					marginLeft: "1px",
+				},
+			},
 		},
+		liveCodeBlock: {
+			/**
+			 * The position of the live playground, above or under the editor
+			 * Possible values: "top" | "bottom"
+			 */
+			playgroundPosition: "bottom",
+		},
+		// Shows on user load - kind of like an ad for our github :D
 		announcementBar: {
 			id: "supportus",
 			content:
@@ -38,11 +69,12 @@ module.exports = {
 		prism: {
 			additionalLanguages: ["powershell", "java", "ruby", "go", "groovy"],
 		},
+		// ! Site Nav Bar
 		navbar: {
 			hideOnScroll: true,
 			title: "Discord Bot Guide",
 			logo: {
-				alt: "My Site Logo",
+				alt: "Site Logo",
 				src: "img/favicon.png",
 			},
 			items: [
@@ -53,19 +85,26 @@ module.exports = {
 					position: "left",
 				},
 				{ to: "blog", label: "Blog", position: "left" },
-				{ to: "about", label: "About Us", position: "left" },
+				//? need to add later
+				{ label: "Community", position: "left", to: "/comingsoon" },
+				{ to: "comingsoon", label: "About Us", position: "right" },
+
+				//? need to add later
 				{
 					to: "team",
 					label: "Team",
 					position: "right",
 					activeBaseRegex: `team`,
 				},
-				// Will add later
-				// { to: "community", label: "Community", position: "left" },
 				{
 					href: "https://github.com/DeepWebDevelopers/discord-bot-guide",
 					label: "GitHub",
 					position: "right",
+				},
+				// Supports the language change function.
+				{
+					type: "localeDropdown",
+					position: "left",
 				},
 			],
 		},
@@ -148,4 +187,17 @@ module.exports = {
 			},
 		],
 	],
+	// Translation feature
+	i18n: {
+		defaultLocale: "en",
+		locales: ["en"], //"spanish" - adding later (https://v2.docusaurus.io/docs/next/i18n/introduction)
+		localeConfigs: {
+			en: {
+				label: "English",
+			},
+			spanish: {
+				label: "Española",
+			},
+		},
+	},
 };

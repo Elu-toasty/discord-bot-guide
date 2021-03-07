@@ -40,7 +40,7 @@ After learning your language on a basic level you can have a lot more fun with t
 
 - If you want to learn [Javascript](js/s1/doc-byb-js)
 - If you want to learn [Python](py/s1/doc-py-byb)
-- If you want to learn [Java](java/s1/doc-byb-java)
+- If you want to learn [Java](java/doc-prerequisites-java)
 - If you want to learn [Typescript](ts/s1/doc-byb-ts)
 - More coming soon!
 
@@ -59,3 +59,7 @@ Here are a few tools that I use on a daily to make life much easier.
 **Lets get coding!**
 
 ![Coding gif](https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif)
+
+```js
+console.log("Loading Documentation!)
+```

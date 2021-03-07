@@ -2,6 +2,7 @@
 id: doc-byb-js
 sidebar_label: Before you start...
 title: Read Me
+author: ThatGuyJamal
 ---
 
 ---

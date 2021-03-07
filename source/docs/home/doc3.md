@@ -1,5 +1,6 @@
 ---
 id: doc3
+author: ThatGuyJamal
 title: Want something added to the docs?
 sidebar_label: Requesting more content
 ---
