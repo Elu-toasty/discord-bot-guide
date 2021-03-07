@@ -11,13 +11,35 @@ module.exports = {
 	favicon: "img/favicon.ico",
 	organizationName: "DeepWebDevelopers", // Usually your GitHub org/user name.
 	projectName: "discord-bot-guide", // Usually your repo name.
+	customFields: {
+		description: "A Discord bot Giude. Helping you become a Discord developer.",
+	},
 	themeConfig: {
+		hideableSidebar: true,
+		// Sets the collor settings for the site
+		colorMode: {
+			defaultMode: "dark",
+			// Allows the user to configer the site dark and light mode
+			disableSwitch: false,
+			respectPrefersColorScheme: true,
+		},
+		announcementBar: {
+			id: "supportus",
+			content:
+				'⭐️ If you like Discord Bot Guide, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/DeepWebDevelopers/discord-bot-guide">GitHub</a>! ⭐️',
+		},
+		//! Will be adding soon when docs complete
+		// algolia: {
+		// 	apiKey: "",
+		// 	indexName: "docs-search-api",
+		// 	contextualSearch: true,
+		// },
 		// Allows us to add markdown highlighting for more languages.
 		prism: {
 			additionalLanguages: ["powershell", "java", "ruby", "go", "groovy"],
 		},
-		hideableSidebar: true,
 		navbar: {
+			hideOnScroll: true,
 			title: "Discord Bot Guide",
 			logo: {
 				alt: "My Site Logo",
@@ -98,13 +120,20 @@ module.exports = {
 			"@docusaurus/preset-classic",
 			{
 				docs: {
+					path: "docs",
 					sidebarPath: require.resolve("./sidebars.js"),
+					showLastUpdateAuthor: true,
+					showLastUpdateTime: true,
 					// Please change this to your repo.
 					editUrl:
 						"https://github.com/DeepWebDevelopers/discord-bot-guide/tree/alpha/source",
 				},
 				blog: {
 					showReadingTime: true,
+					postsPerPage: 3,
+					blogSidebarCount: "ALL",
+					blogSidebarTitle: "All our posts",
+
 					// Please change this to your repo.
 					editUrl:
 						"https://github.com/DeepWebDevelopers/discord-bot-guide/tree/alpha/source",
