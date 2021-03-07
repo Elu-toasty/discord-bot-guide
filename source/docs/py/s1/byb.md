@@ -30,4 +30,9 @@ Of course, you need a place to actually write the code! Some free choices includ
 - [Pycharm](https://www.jetbrains.com/pycharm-edu/)
 - [Sublime Text](https://www.sublimetext.com/)
 
+##  If you cant use an ide then use these
+
+- [Glitch](https://www.sublimetext.com/)
+- [Replit](https://repl.it/)
+
 I'm sure there are separate documents for each of those programs, so learn how to set those up, and come back once you're done.
