@@ -30,6 +30,7 @@ If you want to sharpen your skills before starting the docs we can remcomend a f
 - [Node chool - Useful Javascript and nodejs information](https://nodeschool.io/)
 - [Udemy- Great Courses for Languages](https://www.udemy.com/)
 - [Learn python](https://www.learnpython.org/)
+- [Code Cademy](https://www.codecademy.com/)
 - [Or just use google!](https://www.google.com)
 
 After learning your language on a basic level you can have a lot more fun with the documentation!
