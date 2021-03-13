@@ -122,4 +122,6 @@ Restart your bot and then send `!hello` to a channel your bot has access to. If 
 
 And there is your first hello world in Discord.js! Exciting stuff, isn't it? This is only the beginning, so let's move on to making some more commands.
 
-#
+### Code
+
+Remember that all our code is available for free to view. Simple Visite [here]() for the javascript example bots full source code. Eveything used in the bot is based on this JavaScript documentaion.
