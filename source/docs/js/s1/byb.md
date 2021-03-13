@@ -9,7 +9,7 @@ author: ThatGuyJamal
 
 :::note
 
-You are about to become an amazing develper! Perpar yourself.
+You are about to become an amazing develper! Prepare yourself.
 
 :::
 

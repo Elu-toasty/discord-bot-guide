@@ -62,5 +62,13 @@ Here are a few tools that I use on a daily to make life much easier.
 ![Coding gif](https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif)
 
 ```js
-console.log("Loading Documentation!)
+// Dont mind this ;)
+function start(docs) {
+  await docs.load().then((docs) => {
+    console.log("Documentation Loaded!")
+  }).catch(err) {
+    return console.log(`Enjoy the docs :) ${err}`)
+  }
+}
+
 ```
