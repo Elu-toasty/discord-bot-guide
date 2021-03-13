@@ -120,8 +120,41 @@ Restart your bot and then send `!hello` to a channel your bot has access to. If 
 
 ![hello world bot success exmaple img](/img/js/s2/hello-world-bot-success.png)
 
+Final Code:
+
+```js
+// we require the discord.js module from our node package
+const Discord = require("discord.js");
+
+// we then createw a new Discord client
+const client = new Discord.Client();
+
+// declears the config file path
+const config = require("./config.json");
+
+// when the client is ready, run this code
+// this event will only trigger one time after logging in
+client.once("ready", () => {
+	console.log("Im Online!");
+});
+
+// Calling the message event from client and listening for messages
+client.on("message", (message) => {
+	// reply to all messages with "!hello"
+	if (message.content === "!hello") {
+		// reply back with the String of "world"
+		message.channel.send("Hello World!");
+	}
+	// log the message interations
+	console.log(message.content);
+});
+
+// login the client(your bot) with Discord using your bot token
+client.login(config.TOKEN);
+```
+
 And there is your first hello world in Discord.js! Exciting stuff, isn't it? This is only the beginning, so let's move on to making some more commands.
 
 ### Code
 
-Remember that all our code is available for free to view. Simple Visite [here]() for the javascript example bots full source code. Eveything used in the bot is based on this JavaScript documentaion.
+Remember that all our code is available for free to view. Simple Visite [here](https://github.com/DeepWebDevelopers/discord-bot-guide/tree/alpha/Bots) for the javascript example bots full source code. Eveything used in the bot is based on this JavaScript documentaion.
