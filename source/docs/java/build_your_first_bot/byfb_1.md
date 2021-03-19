@@ -8,15 +8,15 @@ sidebar_label: Obtaining a Bot Token
 
 ## Before we get started coding...
 
-Before we start coding, we must first create a new bot application on the [Discord Development Portal](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications). If you already have a token, you can skip this section and continue on with the tutorial.
+Before we start coding, we must first create a new bot application on the [Discord Development Portal](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications). If you already have a token, you can skip this section and continue with the tutorial.
 
-Once you login, you will see a screen that looks like this:
+Once you log in, you will see a screen that looks like this:
 
 ![Discord Development Portal](../../../static/img/java-docs/build_your_first_bot/byfb_1/devportal_main.png "Discord Development Portal")
 
 Click on `New Application` to create a new bot application.
 
-This will open up a new window which will prompt you to enter a name for your bot. For the purpose of the upcoming tutorial, I will name my bot _Ping Pong Bot_.
+This will open up a new window that will prompt you to enter a name for your bot. For the purpose of the upcoming tutorial, I will name my bot _Ping Pong Bot_.
 
 ![Discord Development Portal](../../../static/img/java-docs/build_your_first_bot/byfb_1/devportal_nameYourBot.png "Discord Development Portal")
 
@@ -32,9 +32,9 @@ We are now able to copy our bots token and start coding!
 
 ## Getting an invite link for our bot
 
-Now that we have created our bot on the [Discord Develoment Portal](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications), we can get an invite link for our bot. This will allow us to invite our bot to Discord Servers.
+Now that we have created our bot on the [Discord Development Portal](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications), we can get an invite link for our bot. This will allow us to invite our bot to Discord Servers.
 
-Navigate to the `OAuth2` tab on the Discord Development Portal. This page allows us to setup permissions for our bot. To make things simple, we will just give our bot the `Administrator` permission.
+Navigate to the `OAuth2` tab on the Discord Development Portal. This page allows us to set up permissions for our bot. To make things simple, we will just give our bot the `Administrator` permission.
 
 ![Discord Development Portal](../../../static/img/java-docs/build_your_first_bot/byfb_1/devportal_oauth2.png "Discord Development Portal")
 
