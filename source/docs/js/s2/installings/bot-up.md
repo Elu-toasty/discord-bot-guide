@@ -7,19 +7,19 @@ title: Getting Your Bot Up & Running
 
 ## Node Version check
 
-To run your Discord bot make sure to have the lasted version of `nodejs` installed.
+To run your Discord bot make sure to have the lasted version of `Nodejs` installed.
 
 ```
 node --version
 ```
 
-After checking that create a new file inside your _discord-bot_ folder called **index.js**. This file can be nammed anything and will be the source of our bot.
+After checking that create a new file inside your _discord-bot_ folder called **index.js**. This file can be named anything and will be the source of our bot.
 
-Make sure you have also installed the discord.js package from the other parts of the documentaion.
+Make sure you have also installed the discord.js package from the other parts of the documentation.
 
 ## Logging into Discord
 
-Once you've created a new file, do a quick check to see if you have everything setup properly. Copy & paste the following code into your file and save it. Don't worry if you don't understand it right away—it'll be explained a bit more in depth after this.
+Once you've created a new file, do a quick check to see if you have everything set up properly. Copy & paste the following code into your file and save it. Don't worry if you don't understand it right away—it'll be explained a bit more in-depth after this.
 
 ```js
 const Discord = require("discord.js");
@@ -38,12 +38,12 @@ Next head back over to your console and type `node index.js` (or whatever you na
 ![bot terminal login exmaple](/img/js/s2/terminal-bot-login.png)
 
 :::tip
-Open up your package.json file, look for something like **"main": "index.js"**, and change **"index.js"** to whatever your file name is. After saving, you can simply run the node . shortcut in your console to start the process!
+Open up your package.json file, look for something like **"main": "index.js"**, and change **"index.js"** to whatever your file name is. After saving, you can simply run the `node .` shortcut in your console to start the process!
 :::
 
 If everything does well you should see:
 
-![bot success online exmaple img](/img/js/s2/bot-online-success.png)
+![bot success online example img](/img/js/s2/bot-online-success.png)
 
 If not then retry the steps above.
 
@@ -71,13 +71,13 @@ client.once("ready", () => {
 client.login(config.TOKEN);
 ```
 
-Although it may be simple, its important to understand the basics of what your code does. So later down the line you will feel comfortable with making changes.
+Although it may be simple, it's important to understand the basics of what your code does. So later down the line, you will feel comfortable with making changes.
 
-So think your ready to start creating your first command? Lets get started then!
+So think you're ready to start creating your first command? Let's get started then!
 
 ### Listening for messages
 
-The most basic and easist way to make a command is using the discord.js message event. Before this make sure to `Ctrl + c` in our terminal to end the bot process. Navigate to your code editor and paste the following code above `client.log(...)`
+The most basic and easiest way to make a command is using the discord.js message event. Before this make sure to `Ctrl + c` in our terminal to end the bot process. Navigate to your code editor and paste the following code above `client.log(...)`
 
 ```js
 //
@@ -88,7 +88,7 @@ client.on("message", (message) => {
 
 Notice how the code uses `.on` rather than `.once` like in the ready event. This means that it can trigger multiple times. Save the file, go back to your console, and start the process up again. Whenever a message is sent inside a channel your bot has access to, the message's content will be logged to your console.
 
-:::tip Discord.js is flexable
+:::tip Discord.js is flexible
 You can define _client_ as anything you want. This is still basic javascript.
 
 If you wanted to do:
@@ -102,12 +102,12 @@ PIZZA.once("ready", () => {
 });
 ```
 
-It would still work fine. Just know that you will have to be consistant with the varialble names you pick.
+It would still work fine. Just know that you will have to be consistent with the variable names you pick.
 :::
 
 ### Replying to messages
 
-The Next step in creating our first command is replying to user messages.
+The next step in creating our first command is replying to user messages.
 
 ```js
 if (message.content === "!hello") {
@@ -118,7 +118,7 @@ if (message.content === "!hello") {
 
 Restart your bot and then send `!hello` to a channel your bot has access to. If all goes well, you should see something like this:
 
-![hello world bot success exmaple img](/img/js/s2/hello-world-bot-success.png)
+![hello world bot success example img](/img/js/s2/hello-world-bot-success.png)
 
 Final Code:
 
