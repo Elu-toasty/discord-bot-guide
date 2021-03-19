@@ -22,7 +22,7 @@ Next, we will give our project a name. I will name my bot PingPongBot. Click `Fi
 
 ![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_2/intellij_newProject2.png "IntelliJ IDEA")
 
-Now wait for Gradle to build our project. Gradle will help us manage our projects dependencies, such as JDA. Once Gradle is finished building your project, your project should look like this:
+Now, wait for Gradle to build our project. Gradle will help us manage our project dependencies, such as JDA. Once Gradle is finished building your project, your project should look like this:
 
 ![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_2/intellij_newProject3.png "IntelliJ IDEA")
 
@@ -54,6 +54,6 @@ test {
 }
 ```
 
-If your project has auto import disabled, you will see a refresh icon on the top right hand side of the editor, click this to rebuild your project with the new dependency.
+If your project has auto-import disabled, you will see a refresh icon on the top right-hand side of the editor, click this to rebuild your project with the new dependency.
 
 Now that we have our JDA dependency added, we can start developing our bot!
