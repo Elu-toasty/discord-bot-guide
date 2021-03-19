@@ -31,11 +31,11 @@ values={[
 
 # Installing Node | Windows
 
-Before we can jump into the fun parts we must inatall the necessary technologies.
+Before we can jump into the fun parts we must install the necessary technologies.
 
-## What is nodejs? | Windows nav
+## What is node js? | Windows nav
 
-> Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.
+> Node.js is an open-source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.
 >
 > Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.
 
@@ -65,17 +65,17 @@ If everything went well then you should see:
 
 ### Installing Discordjs
 
-Now that you have node install we can install Discord Js. To start this project we must create a folder to store all our files. This
+Now that you have Node install we can install Discord Js. To start this project we must create a folder to store all our files. This
 
-Navigate to a place on your computer were you want to store and have easy access to the bot. Now create a new folder like normal. _(Or pro users can do `mkdir project-name`)_. Next, whatever name you inputed for the _project name_ you will run the command: `cd project-name`. For this tutorial we will be using `discord-bot` as our project name.
+Navigate to a place on your computer where you want to store and have easy access to the bot. Now create a new folder like normal. _(Or pro users can do `mkdir project-name`)_. Next, whatever name you inputted for the _project name_ you will run the command: `cd project-name`. For this tutorial, we will be using `discord-bot` as our project name.
 
 ![Mkdir exmaple image](/img/js/shot-mkdir-js.png)
 
 ### Final steps
 
-Now that we have our project folder set up you will want to open your text editor. This is the place where you will edit and test your code. For this tutorial i will be using [Vscode](https://code.visualstudio.com/Download). Its a personal favoite and created by microsoft.
+Now that we have our project folder set up you will want to open your text editor. This is the place where you will edit and test your code. For this tutorial, I will be using [Vscode](https://code.visualstudio.com/Download). It's a personal favorite and was created by Microsoft.
 
-To lanch vs-code easily run `code .` in your termianl. Next we will set-up our development environment. Run `npm init` in the terminal. This command will ask you a few questions about your project. _If your not sure about something just hit enter to skip it._
+To launch vs-code easily run `code .` in your terminal. Next, we will set-up our development environment. Run `npm init` in the terminal. This command will ask you a few questions about your project. _If your not sure about something just hit enter to skip it._
 
 :::
 
@@ -85,19 +85,19 @@ Want to get started without being asked questions? Simply run `npm init -y`. Thi
 
 :::
 
-Now we are ready to install Discord.js. In the terminal run `npm install discord.js`.
+Now we are ready to install Discord.js. In the terminal run, `npm install discord.js`.
 
-If eveything went well you should something simular to this. You
+If everything went well you should something similar to this. You
 
 ![discord install folder example](/img/js/shot-dir-djs.png)
 
-And now were done! Soon we will be righting our first command.
+And now we're done! Soon we will be righting our first command.
 
 ### Installing a linter
 
 > Linters help you get more productive and save you time and money. They drive your team to better decisions (those oriented by data) and share ownership over the quality.
 
-While its not required, depending on how you setup your project it can be very helpful. Read more about [Linters](https://sourcelevel.io/blog/what-is-a-linter-and-why-your-team-should-use-it) here.
+While it's not required, depending on how you set up your project it can be very helpful. Read more about [Linters](https://sourcelevel.io/blog/what-is-a-linter-and-why-your-team-should-use-it) here.
 
 Linter docs page: [click me](/docs/js/s1/installings/doc-linter)
 
@@ -108,11 +108,11 @@ Linter docs page: [click me](/docs/js/s1/installings/doc-linter)
 
 # Installing Node | Mac OS
 
-Before we can jump into the fun parts we must inatall the necessary technologies.
+Before we can jump into the fun parts we must install the necessary technologies.
 
-## What is nodejs? | Mac nav
+## What is node js? | Mac nav
 
-> Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.
+> Node.js is an open-source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.
 >
 > Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.
 
@@ -142,17 +142,17 @@ If everything went well then you should see:
 
 ### Installing Discordjs
 
-Now that you have node install we can install Discord Js. To start this project we must create a folder to store all our files. This
+Now that you have Node install we can install Discord Js. To start this project we must create a folder to store all our files. This
 
-Navigate to a place on your computer were you want to store and have easy access to the bot. Now create a new folder like normal. _(Or pro users can do `mkdir project-name`)_. Next, whatever name you inputed for the _project name_ you will run the command: `cd project-name`. For this tutorial we will be using `discord-bot` as our project name.
+Navigate to a place on your computer where you want to store and have easy access to the bot. Now create a new folder like normal. _(Or pro users can do `mkdir project-name`)_. Next, whatever name you inputted for the _project name_ you will run the command: `cd project-name`. For this tutorial, we will be using `discord-bot` as our project name.
 
 ![Mkdir exmaple image](/img/js/shot-mkdir-js.png)
 
 ### Final steps
 
-Now that we have our project folder set up you will want to open your text editor. This is the place where you will edit and test your code. For this tutorial i will be using [Vscode](https://code.visualstudio.com/Download). Its a personal favoite and created by microsoft.
+Now that we have our project folder set up you will want to open your text editor. This is the place where you will edit and test your code. For this tutorial, I will be using [Vscode](https://code.visualstudio.com/Download). It's a personal favorite and was created by Microsoft.
 
-To lanch vs-code easily run `code .` in your termianl. Next we will set-up our development environment. Run `npm init` in the terminal. This command will ask you a few questions about your project. _If your not sure about something just hit enter to skip it._
+To launch vs-code easily run `code .` in your terminal. Next, we will set-up our development environment. Run `npm init` in the terminal. This command will ask you a few questions about your project. _If your not sure about something just hit enter to skip it._
 
 :::
 
@@ -162,19 +162,19 @@ Want to get started without being asked questions? Simply run `npm init -y`. Thi
 
 :::
 
-Now we are ready to install Discord.js. In the terminal run `npm install discord.js`.
+Now we are ready to install Discord.js. In the terminal run, `npm install discord.js`.
 
-If eveything went well you should something simular to this. You
+If everything went well you should something similar to this. You
 
 ![discord install folder example](/img/js/shot-dir-djs.png)
 
-And now were done! Soon we will be righting our first command.
+And now we're done! Soon we will be righting our first command.
 
 ## Installing a linter
 
 > Linters help you get more productive and save you time and money. They drive your team to better decisions (those oriented by data) and share ownership over the quality.
 
-While its not required, depending on how you setup your project it can be very helpful. Read more about [Linters](https://sourcelevel.io/blog/what-is-a-linter-and-why-your-team-should-use-it) here.
+While it's not required, depending on how you set up your project it can be very helpful. Read more about [Linters](https://sourcelevel.io/blog/what-is-a-linter-and-why-your-team-should-use-it) here.
 
 Linter docs page: [click me](/docs/js/s1/installings/doc-linter)
 
@@ -185,11 +185,11 @@ Linter docs page: [click me](/docs/js/s1/installings/doc-linter)
 
 # Installing Node | linux
 
-Before we can jump into the fun parts we must inatall the necessary technologies.
+Before we can jump into the fun parts we must install the necessary technologies.
 
 ### What is nodejs? | Linux nav
 
-> Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.
+> Node.js is an open-source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.
 >
 > Node.js also provides a rich library of various JavaScript modules which simplifies the development of web applications using Node.js to a great extent.
 
@@ -197,7 +197,7 @@ _[Quote Source](https://www.tutorialspoint.com/nodejs/nodejs_introduction.htm)_
 
 You can learn more about [nodejs here](https://www.tutorialspoint.com/nodejs/nodejs_introduction.htm) or on the official site [here](https://nodejs.org/en/).
 
-Hello my fellow linux user. If your developing on linux I will asume you are comfortable with the terminal. As there are many different option in linux I will only go over the basics of terminal commands.
+Hello, my fellow Linux user. If you're developing on Linux I will assume you are comfortable with the terminal. As there are many different options in Linux I will only go over the basics of terminal commands.
 
 :::caution
 
@@ -219,17 +219,17 @@ If everything went well then you should see:
 
 ### Installing Discordjs
 
-Now that you have node install we can install Discord Js. To start this project we must create a folder to store all our files. This
+Now that you have Node install we can install Discord Js. To start this project we must create a folder to store all our files. This
 
-Navigate to a place on your computer were you want to store and have easy access to the bot. Now create a new folder like normal. _(Or pro users can do `mkdir project-name`)_. Next, whatever name you inputed for the _project name_ you will run the command: `cd project-name`. For this tutorial we will be using `discord-bot` as our project name.
+Navigate to a place on your computer where you want to store and have easy access to the bot. Now create a new folder like normal. _(Or pro users can do `mkdir project-name`)_. Next, whatever name you inputted for the _project name_ you will run the command: `cd project-name`. For this tutorial, we will be using `discord-bot` as our project name.
 
 ![Mkdir exmaple image](/img/js/shot-mkdir-js.png)
 
 ### Final steps
 
-Now that we have our project folder set up you will want to open your text editor. This is the place where you will edit and test your code. For this tutorial i will be using [Vscode](https://code.visualstudio.com/Download). Its a personal favoite and created by microsoft.
+Now that we have our project folder set up you will want to open your text editor. This is the place where you will edit and test your code. For this tutorial, I will be using [Vscode](https://code.visualstudio.com/Download). It's a personal favorite and was created by Microsoft.
 
-To lanch vs-code easily run `code .` in your termianl. Next we will set-up our development environment. Run `npm init` in the terminal. This command will ask you a few questions about your project. _If your not sure about something just hit enter to skip it._
+To launch vs-code easily run `code .` in your terminal. Next, we will set-up our development environment. Run `npm init` in the terminal. This command will ask you a few questions about your project. _If your not sure about something just hit enter to skip it._
 
 :::
 
@@ -239,19 +239,19 @@ Want to get started without being asked questions? Simply run `npm init -y`. Thi
 
 :::
 
-Now we are ready to install Discord.js. In the terminal run `npm install discord.js`.
+Now we are ready to install Discord.js. In the terminal run, `npm install discord.js`.
 
-If eveything went well you should something simular to this. You
+If everything went well you should something similar to this. You
 
 ![discord install folder example](/img/js/shot-dir-djs.png)
 
-And now were done! Soon we will be righting our first command.
+And now we're done! Soon we will be righting our first command.
 
 ### Installing a linter
 
 > Linters help you get more productive and save you time and money. They drive your team to better decisions (those oriented by data) and share ownership over the quality.
 
-While its not required, depending on how you setup your project it can be very helpful. Read more about [Linters](https://sourcelevel.io/blog/what-is-a-linter-and-why-your-team-should-use-it) here.
+While it's not required, depending on how you set up your project it can be very helpful. Read more about [Linters](https://sourcelevel.io/blog/what-is-a-linter-and-why-your-team-should-use-it) here.
 
 Linter docs page: [click me](/docs/js/s1/installings/doc-linter)
 
