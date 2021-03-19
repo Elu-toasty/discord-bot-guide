@@ -10,11 +10,11 @@ sidebar_label: Coding the Bot
 
 Now that we have our dependencies installed, we need to create the main class which will hold all the code for this tutorial.
 
-Navigate to the `java` folder in `src/main`. Then right click on the `java` folder and go to _`New` -> `Java Class`_.
+Navigate to the `java` folder in `src/main`. Then right-click on the `java` folder and go to _`New` -> `Java Class`_.
 
 ![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_3/intellij_newProject5.png "IntelliJ IDEA")
 
-Give your Java Class a name of `Main`. Then press `ENTER`
+Give your Java Class the name of `Main`. Then press `ENTER`
 
 ![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_3/intellij_newProject6.png "IntelliJ IDEA")
 
@@ -90,7 +90,7 @@ The first 6 lines show up because we do not have [slf4j](http://www.slf4j.org/) 
 
 ## Adding Functionality
 
-In order to give our bot functionality, we must add a `ListenerAdapter` to our JDA instance. We will now override the `onGuildMessageReceived` method so we can listen for messages _(A guild is a discord server)_.
+To give our bot functionality, we must add a `ListenerAdapter` to our JDA instance. We will now override the `onGuildMessageReceived` method so we can listen for messages _(A guild is a discord server)_.
 
 ```java {2,3-4,15-18}
 import net.dv8tion.jda.api.JDABuilder;
@@ -120,7 +120,7 @@ Essentially, whenever a user sends a message in the discord server, the `onGuild
 You can automatically generate this method by simply typing in `onGuildMessageReceived` and pressing `ENTER`
 :::
 
-Now, we can add some logic within our `onGuildMessageReceived` method that will capture the senders message and check if it equals `!ping`. If it does, it will reply with `pong!`.
+Now, we can add some logic within our `onGuildMessageReceived` method that will capture the sender's message and check if it equals `!ping`. If it does, it will reply with `pong!`.
 
 ```java {3-7}
 @Override
