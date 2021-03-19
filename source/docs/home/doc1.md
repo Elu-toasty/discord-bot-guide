@@ -19,12 +19,12 @@ This guide will teach you things such as:
 - How to use the best practices for common situations;
   and much more.
 
-We are writing from the perspective of _"you already understand the basics"_.
+We are writing from the perspective of _" you already understand the basics"_.
 This means, although we will explain and walk you through the concepts, you will **not** be taught the fundamentals of programming. Such as variables, functions, etc. So make sure you have a basic knowledge of your language before jumping into creating a Discord bot.
 
 ### Resources
 
-If you want to sharpen your skills before starting the docs we can remcomend a few resources.
+If you want to sharpen your skills before starting the docs we can recommend a few resources.
 
 - [FreeCodeCamp - Many Different languages](https://www.freecodecamp.org/)
 - [Node chool - Useful Javascript and nodejs information](https://nodeschool.io/)
@@ -47,17 +47,17 @@ After learning your language on a basic level you can have a lot more fun with t
 
 ### Helpful Dev Tools
 
-As a developer we all work to make life **easy**. If there is some program out their that does "x" 5x faster then I want it!
+As a developer, we all work to make life **easy**. If there is some program out there that does "x" 5x faster than I want it!
 
 Here are a few tools that I use on a daily to make life much easier.
 
 | Name                                      | Description                                                                          |
 | ----------------------------------------- | ------------------------------------------------------------------------------------ |
-| [Vs-Code](https://code.visualstudio.com/) | A profesinal code editor built and maintained by microsoft.                          |
-| [Github](https://github.com/)             | An Internet hosting platofrm for software development and version control using Git. |
-| [Code-Pen](https://codepen.io/)           | A great way to test and share HTML, CSS, and JavaScript from the brower.             |
+| [Vs-Code](https://code.visualstudio.com/) | A professional code editor built and maintained by Microsoft.                          |
+| [Github](https://github.com/)             | An Internet hosting platform for software development and version control using Git. |
+| [Code-Pen](https://codepen.io/)           | A great way to test and share HTML, CSS, and JavaScript from the browser.             |
 
-**Lets get coding!**
+** let's get coding!**
 
 ![Coding gif](https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif)
 
