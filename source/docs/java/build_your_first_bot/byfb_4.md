@@ -42,7 +42,7 @@ test {
 
 The gradle shadow plugin allows us to build jars. You can get the latest version of it [here](https://plugins.gradle.org/plugin/com.github.johnrengelman.shadow).
 
-To build the jar, navigate to the right hand side of the IDE and click on Gradle tab.
+To build the jar, navigate to the right-hand side of the IDE and click on the Gradle tab.
 
 ![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_4/intellij_gradle.png "IntelliJ IDEA")
 
