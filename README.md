@@ -1,5 +1,8 @@
 ![DeepWebDevelopers, Logo](./assets/logo.png)
 
+![GitHub forks](https://img.shields.io/github/forks/DeepWebDevelopers/discord-bot-guide?style=social) ![GitHub pull requests](https://img.shields.io/github/issues-pr/DeepWebDevelopers/discord-bot-guide) ![GitHub Repo stars](https://img.shields.io/github/stars/DeepWebDevelopers/discord-bot-guide?style=social) 
+
+
 # _Branch in development_
 
 ## Why was this created?
