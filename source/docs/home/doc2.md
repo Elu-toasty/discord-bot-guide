@@ -31,7 +31,7 @@ If you meet all the required skills above then please use [this link](https://do
 
 ### Contribute without programming?
 
-If you don't have any programming skills but you still want to contribute to our [team](/team) you can! We have many donation options available such as PayPal and Cash app. _( both coming soon)_
+If you don't have any programming skills but still want to support our [team](/team) you can! We have many donation options available such as PayPal and Cash app. _( both coming soon)_
 
 ### Contribute without joining us?
 
