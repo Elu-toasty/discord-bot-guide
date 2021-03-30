@@ -27,10 +27,10 @@ This means, although we will explain and walk you through the concepts, you will
 If you want to sharpen your skills before starting the docs we can recommend a few resources.
 
 - [FreeCodeCamp - Many Different languages](https://www.freecodecamp.org/)
-- [Node chool - Useful Javascript and nodejs information](https://nodeschool.io/)
+- [Node School - Useful Javascript and nodejs information](https://nodeschool.io/)
 - [Udemy- Great Courses for Languages](https://www.udemy.com/)
 - [Learn python](https://www.learnpython.org/)
-- [Code Cademy](https://www.codecademy.com/)
+- [Code Academy](https://www.codecademy.com/)
 - [Or just use google!](https://www.google.com)
 
 After learning your language on a basic level you can have a lot more fun with the documentation!
@@ -51,11 +51,11 @@ As a developer, we all work to make life **easy**. If there is some program out 
 
 Here are a few tools that I use on a daily to make life much easier.
 
-| Name                                      | Description                                                                          |
-| ----------------------------------------- | ------------------------------------------------------------------------------------ |
-| [Vs-Code](https://code.visualstudio.com/) | A professional code editor built and maintained by Microsoft.                          |
-| [Github](https://github.com/)             | An Internet hosting platform for software development and version control using Git. |
-| [Code-Pen](https://codepen.io/)           | A great way to test and share HTML, CSS, and JavaScript from the browser.             |
+| Name                                     | Description                                                                          |
+| ---------------------------------------- | ------------------------------------------------------------------------------------ |
+| [VsCode](https://code.visualstudio.com/) | A professional code editor built and maintained by Microsoft.                        |
+| [Github](https://github.com/)            | An Internet hosting platform for software development and version control using Git. |
+| [Code-Pen](https://codepen.io/)          | A great way to test and share HTML, CSS, and JavaScript from the browser.            |
 
 ** let's get coding!**
 

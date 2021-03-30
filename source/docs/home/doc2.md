@@ -13,13 +13,13 @@ That's great, the project is in [alpha](/blog/2021/03/04/Alpha) also we are alwa
 
 **One:** You must have a [Discord](https://discord.com/) account and a [Github](https://github.com/) account to join the team. These are both applications we will be using daily.
 
-**Two:** You must have some knowledge of programming in a Discord supported language - `javascript, python, java, etc. We are looking for people who are capable of teaching others how to learn, this means you must have a strong understanding of the content beforehand.
+**Two:** You must have some knowledge of programming in a Discord supported language - `javascript, python, java etc. We are looking for people who are capable of teaching others how to learn, this means you must have a strong understanding of the content beforehand.
 
 _We are willing to accept programmers who don't know Discord API as long as they have the proper skills to learn._
 
-**Three:** You must be 13+ or older to apply.
+**Three:** You must be 13+ of age to apply.
 
-**_Why?_** There must be a limitation on maturity for our developer team. Furthermore, Discord people of age 12 or younger to use the platform either.
+**_Why?_** There must be a limitation on maturity for our developer team. Furthermore, Discord do not allow people of age 12 or younger.
 
 ![All Good gif](https://media.giphy.com/media/S3J9D4Rdaw3E7r2qTi/giphy.gif)
 
