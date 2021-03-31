@@ -4,7 +4,7 @@
 
 ## ⌛ Status
 - [x] Development: Started building the project, almost ready to ship!
-- [ ] Early Release: Soft Launch on Twitter + GitHub (mostly trying to fix and solve bugs)
+- [ ] Early Release: Soft Launch on Discord + GitHub (mostly trying to fix and solve bugs)
 - [ ] Official Launch
 
 ## Why was this created?
