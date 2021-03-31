@@ -1,6 +1,6 @@
 module.exports = {
 	docs: {
-		Home: ["home/doc1", "home/doc2", "home/doc3"],
+		Home: ["home/doc1", "home/doc2", "home/doc3", "home/faq"],
 		Javascript: [
 			//! s1
 			"js/s1/doc-byb-js",
