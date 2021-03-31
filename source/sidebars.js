@@ -31,7 +31,7 @@ module.exports = {
 			},
 		],
 		Python: [
-			//? s1
+			//? Section 1 of py files
 			"py/s1/doc-py-byb",
 			{
 				Preperations: ["py/s1/installings/doc-py-deps"],
