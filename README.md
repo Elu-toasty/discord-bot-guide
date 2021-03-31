@@ -2,7 +2,11 @@
 
 ![GitHub forks](https://img.shields.io/github/forks/DeepWebDevelopers/discord-bot-guide?style=social) ![GitHub pull requests](https://img.shields.io/github/issues-pr/DeepWebDevelopers/discord-bot-guide) ![GitHub Repo stars](https://img.shields.io/github/stars/DeepWebDevelopers/discord-bot-guide?style=social)
 
-# _Branch in development_
+
+## ⌛ Status
+- [x] Development: Started building the project, almost ready to ship!
+- [ ] Early Release: Soft Launch on Discord + GitHub (mostly trying to fix and solve bugs)
+- [ ] Official Launch
 
 ## Why was this created?
 
@@ -14,14 +18,25 @@ Thanks for checking out our GitHub page! The Discord Bot Guide was originally cr
 
 The best way to enjoy our documentation is on the [official website](https://github.com/DeepWebDevelopers/discord-bot-guide). If you wish to, you can view any source code from the website. We don't guarantee with will be 100% readable.
 
+
 ### Want to support us?
 
-You can join our [Discord Server](https://discord.com/invite/NbqBQbaejS) for the lasted information about the docs and support on it.
+You can join our [Discord Server](https://discord.com/invite/NbqBQbaejS) for the latest information about the docs and support on it.
 
 For more information [click here](https://deepwebdevelopers.github.io/discord-bot-guide/docs/home/doc2)
 
 ### How to contribute?
 
-We are always looking for **free** help. If you wish to contribute to the documentation you can clone our Github repo and make your changes. There are a lot of branches but only clone the alpha branch as it has the most up-to-date code.
+
+For more information [click here](./docs/../source/docs/home/doc2.md)
+
+### How to contribute?
+
+Please read [CONTRIBUTING.md](./assets/docs/CONTRIBUTING.md) for details on the project.
+
+### How to run locally?
+
+Please read [LOCAL.md](./assets/docs/Local_support.md) for details on this matter.
+
 
 After editing the code you can make a pull request with your changes and they will be reviewed. If everything is good your changes will be pulled into the main branch.

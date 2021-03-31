@@ -158,3 +158,5 @@ And there is your first hello world in Discord.js! Exciting stuff, isn't it? Thi
 ### Code
 
 Remember that all our code is available for free to view. Simply Visite [here](https://github.com/DeepWebDevelopers/discord-bot-guide/tree/alpha/Bots) for the javascript example bots full source code. Eveything used in the bot is based on this JavaScript documentaion.
+
+For a direct link to the source code in this section [click here](https://github.com/DeepWebDevelopers/discord-bot-guide/blob/alpha/Bots/discord-bot-js/source_one/index.js)
