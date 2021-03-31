@@ -32,9 +32,9 @@ module.exports = {
 		],
 		Python: [
 			//? Section 1 of py files
-			"py/s1/doc-py-byb",
+			"py/s1/doc-prerequisites-python",
 			{
-				Preperations: ["py/s1/installings/doc-py-deps"],
+				// Preperations: [""], - Will added when more py pages are added.
 			},
 		],
 		Java: [
