@@ -1,6 +1,6 @@
 ---
 id: doc-byb-js
-sidebar_label: Before you start...
+sidebar_label: Before you begin
 title: Read Me
 author: ThatGuyJamal
 ---
