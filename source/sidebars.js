@@ -6,20 +6,28 @@ module.exports = {
 			"js/s1/doc-byb-js",
 			"js/s1/doc-dj-node",
 			{
-				//? s1
+				//? section 1 of js files
 				Preperations: [
 					"js/s1/installings/doc-bot",
 					"js/s1/installings/doc-bot-add",
 					"js/s1/installings/doc-linter",
 				],
 			},
-			//? s2
+			//? Section 2 of js files
 			{
 				"Creating Your Bot": [
 					"js/s2/installings/doc-bot-up",
 					"js/s2/installings/doc-bot-more-cmd",
 					"js/s2/installings/doc-cmd-args",
 				],
+			},
+			//  ? Command handler files
+			{
+				"Command Handler": ["js/cmd/doc-cmd-handler"],
+			},
+			// ? Event handler files
+			{
+				"Event Handler": ["js/event/doc-event-handler"],
 			},
 		],
 		Python: [

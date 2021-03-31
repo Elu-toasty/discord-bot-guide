@@ -184,6 +184,8 @@ If you plan on making a small bot with very few commands using if / else will be
 
 You probably want your bot to be feature-rich and easy to configure and develop, right? Using a giant if/else if chain won't let you achieve that; it will only hinder your development process.
 
+<h4>Arguments</h4>
+
 After you read about [Arguemnts](/docs/js/s2/installings/doc-cmd-args) we will dive into something called a "command handler" - a system used to handler commands much more efficiently.
 
 Before continuing, here's a small list of reasons why you shouldn't use if/else if chains for anything that's not a small project:
@@ -194,5 +196,7 @@ Before continuing, here's a small list of reasons why you shouldn't use if/else 
  - Difficult to organize.
  - General bad practice.
 
-<h3>Keep on going!</h3>
 
+### Resulting code 
+
+To see the resulting code [click here](https://github.com/DeepWebDevelopers/discord-bot-guide/blob/alpha/source/bots/discord-bot-js/source_two/index.js).
