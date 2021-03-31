@@ -10,15 +10,15 @@ Before we start actually coding, we have to create an application first. Head ov
 
 Once logged in (make sure to have a Discord account), you will see something like this:
 
-![Dev Portal](../../../static/img/ts-docs/sc-1.png)
+![Dev Portal](/img/ts-docs/sc-1.png)
 
 Click on `New Application` to register a new bot. Fill out the respective fields, and click `Create`. Once you have created it, you will see something like this:
 
-![Dev Portal](../../../static/img/ts-docs/sc-2.png)
+![Dev Portal](/img/ts-docs/sc-2.png)
 
 Feel free to give a description for your bot! However, this is just an application. We haven't registered the application as a bot. To do this, click on the `Bot` tab on the right. You will see something like this:
 
-![Dev Portal](../../../static/img/ts-docs/sc-3.png)
+![Dev Portal](/img/ts-docs/sc-3.png)
 
 Click `Add Bot` and confirm. Congrats! You have registered the application as a bot! Now
 
@@ -26,7 +26,7 @@ Click `Add Bot` and confirm. Congrats! You have registered the application as a 
 
 Now, on the same tab, scroll down a bit and you will stumble upon this:
 
-![Dev Portal](../../../static/img/ts-docs/sc-4.png)
+![Dev Portal](/img/ts-docs/sc-4.png)
 
 Enable both options, and click save changes. This is really important, especially later on when we code, so that way, we don't get any errors! Now, on the left side of the screen, you will see another tab called `OAuth2`. Click on it. Lets invite the bot now.
 
@@ -34,11 +34,11 @@ Enable both options, and click save changes. This is really important, especiall
 
 Once you have clicked on the tab, you will see something like this:
 
-![Dev Portal](../../../static/img/ts-docs/sc-5.png)
+![Dev Portal](/img/ts-docs/sc-5.png)
 
 Click on the `Bot` option in the check fields area, and then copy that link. Paste it in another tab, and invite the bot. You should have something like this:
 
-![Dev Portal](../../../static/img/ts-docs/sc-5.png)
+![Dev Portal](/img/ts-docs/sc-5.png)
 
 Great! Invite the bot to whatever server. We will come back to this later to get access to our token. Lets set up our project now, and start coding!
 
