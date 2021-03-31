@@ -29,5 +29,8 @@ For more information [click here](https://deepwebdevelopers.github.io/discord-bo
 
 Please read [CONTRIBUTING.md](./assets/docs/CONTRIBUTING.md) for details on the project.
 
+### How to run locally?
+
+Please read [LOCAL.md](./assets/docs/Local_support.md) for details on this matter.
 
 
