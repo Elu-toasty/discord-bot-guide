@@ -12,7 +12,7 @@ install all dependencies with yarn or node.
 
 ### Step 3 
 
-Assuming you are in the root folder of the projec, run: 
+Assuming you are in the root folder of the project run: 
 
 `cd source && yarn start` or `cd source && node start`
 
