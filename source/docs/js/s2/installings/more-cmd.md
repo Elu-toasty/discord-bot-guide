@@ -5,4 +5,5 @@ title: Adding more commands
 
 ---
 
-More coming soon!
+A bot with only one command is a bit boring. In this section we will create a command prefix system for your bot.
+

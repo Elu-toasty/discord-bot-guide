@@ -24,6 +24,10 @@ After that we opened up the project source files using the cd command, and start
 
 The project is build on [docusaurus](https://docusaurus.io/docs) so read there docs to learn more about how to confiure the project. 
 
+### Checking for errors
+
+The best way is to run `yarn build`. This will create a production view of the website and will run a standard error check on the site.
+
 ### Things to remember 
 
 1. make sure you edit the [sidebar.js](../../source/sidebars.js) file with your changes or else none of your pages will render. Again, refer to the [docusaurus](https://docusaurus.io/docs) for more information.
