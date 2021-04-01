@@ -1,0 +1,11 @@
+dist
+node_modules
+.yarn
+build
+coverage
+.docusaurus
+
+__fixtures__
+
+website-1.x/translated_docs
+website/i18n
