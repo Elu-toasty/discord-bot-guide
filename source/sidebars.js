@@ -44,7 +44,10 @@ module.exports = {
       //? TypeScript docs
       "ts/doc-byb-ts",
       {
-        "Setup and Installation": ["ts/doc-buildingfirstbot-ts"],
+        "Setup and Installation": [
+          "ts/doc-buildingfirstbot-ts",
+          "ts/doc-buildingfirstbot-ts-2",
+        ],
       },
     ],
   },
