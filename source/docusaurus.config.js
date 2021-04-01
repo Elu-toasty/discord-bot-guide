@@ -45,6 +45,7 @@ module.exports = {
 					marginLeft: "1px",
 				},
 			},
+			respectPrefersColorScheme: true,
 		},
 		liveCodeBlock: {
 			/**
@@ -158,6 +159,7 @@ module.exports = {
 		[
 			"@docusaurus/preset-classic",
 			{
+				debug: true, // force debug plugin usage
 				docs: {
 					path: "docs",
 					sidebarPath: require.resolve("./sidebars.js"),
@@ -167,6 +169,9 @@ module.exports = {
 					editUrl:
 						"https://github.com/DeepWebDevelopers/discord-bot-guide/tree/alpha/source",
 				},
+				remarkPlugins: [
+					[require("@docusaurus/remark-plugin-npm2yarn"), { sync: true }],
+				],
 				blog: {
 					showReadingTime: true,
 					postsPerPage: 3,
@@ -176,10 +181,14 @@ module.exports = {
 					// Please change this to your repo.
 					editUrl:
 						"https://github.com/DeepWebDevelopers/discord-bot-guide/tree/alpha/source",
+					postsPerPage: 3,
 					feedOptions: {
 						type: "all",
 						copyright: `Copyright © ${new Date().getFullYear()} DeepWebDevelopers, Inc.`,
 					},
+				},
+				pages: {
+					remarkPlugins: [require("@docusaurus/remark-plugin-npm2yarn")],
 				},
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
@@ -187,16 +196,16 @@ module.exports = {
 			},
 		],
 	],
-	// Translation feature
+	// Translation feature - work in progress
 	i18n: {
 		defaultLocale: "en",
-		locales: ["en"], //"spanish" - adding later (https://v2.docusaurus.io/docs/next/i18n/introduction)
+		locales: ["en", "fr"], // - adding later (https://v2.docusaurus.io/docs/next/i18n/introduction)
 		localeConfigs: {
 			en: {
 				label: "English",
 			},
-			spanish: {
-				label: "Española",
+			fr: {
+				label: "Français",
 			},
 		},
 	},
