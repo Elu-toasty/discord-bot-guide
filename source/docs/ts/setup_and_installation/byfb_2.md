@@ -85,7 +85,9 @@ Once you have done that, go back to the root directory and create another file c
 }
 ```
 
-This specifies the properties for the Typescript project we are about to create. Mainly, we are specifying a rootDir which is our `src` folder, and saying that all the compiled Javascript should go in the `dist` folder. You can call it what you like, some call it build as well! Great, now that we have this done, we are ready to move onto the next step: Coding!
+This specifies the properties for the Typescript project we are about to create. Mainly, we are specifying a rootDir which is our `src` folder, and saying that all the compiled Javascript should go in the `dist` folder. You can call it what you like, some call it build as well! Great, now that we have this done, we are ready to move onto the next step: Coding! Check the following picture to make sure that you have the correct file structure so far!
+
+![Installation](/img/ts-docs/sc-10.png)
 
 :::tip Time to code!
 
