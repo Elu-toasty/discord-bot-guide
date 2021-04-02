@@ -7,6 +7,8 @@ import styles from "./styles.module.css";
 const TITLE = "Team";
 const DESCRIPTION = "Awesome people working";
 
+import teamMemberLogoOne from '../../static/img/undraw_Building.svg'
+
 function Team() {
 	return (
 		<Layout title={TITLE} description={DESCRIPTION}>
@@ -20,7 +22,7 @@ function Team() {
 					<div className="col col--4 margin-bottom--lg">
 						<div className={clsx("card", styles.showcaseUser)}>
 							<div className="card__image">
-								<img src="img/undraw_Building.svg" />
+								<img src="../../static/img/undraw_Building.svg" />
 							</div>
 							<div className="card__body">
 								<div className="avatar">
@@ -38,7 +40,7 @@ function Team() {
 					<div className="col col--4 margin-bottom--lg">
 						<div className={clsx("card", styles.showcaseUser)}>
 							<div className="card__image">
-								<img src="img/undraw_geniuses.svg" />
+								<img src="../../static/img/undraw_geniuses.svg" />
 							</div>
 							<div className="card__body">
 								<div className="avatar">

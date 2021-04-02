@@ -9,7 +9,7 @@ sidebar_label: Requesting more content
 
 ## Can I request updates?
 
-Yes! We are always looking for new suggestions, improvements, and features for our documentation.
+Yes! We are always looking for new suggestions, improvements and features for our documentation.
 
 ### Github
 
@@ -21,4 +21,4 @@ If you prefer to use [Discord](https://discord.com/invite/NbqBQbaejS) to help us
 
 ## I found a Bug!
 
-To report a bug or error with some of our code/documentation then please [submit an issue](https://github.com/DeepWebDevelopers/discord-bot-guide/issues). Keep in mind this only applies if it's a problem on **Our** end. This is not a place to get **Help** with code. That can be done in our discord server.
+To report a bug or error with some of our code/documentation then please [submit an issue](https://github.com/DeepWebDevelopers/discord-bot-guide/issues). Keep in mind this only applies if it's a problem on **Our** end. This is not a place to get **Help** with code. That can be done in our [discord](https://discord.com/invite/NbqBQbaejS) server.
