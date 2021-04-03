@@ -191,13 +191,13 @@ The first step would be to check if the input they gave is an actual number.
 
 ```js
 else if (command === 'prune') {
-	const amount = parseInt(args[0]);
+    const amount = parseInt(args[0]);
 
-	if (isNaN(amount)) {
-		return message.reply("You did not enter a valid number.")
-	}
+    if (isNaN(amount)) {
+        return message.reply("You did not enter a valid number.")
+    }
 
-	// ...
+    // ...
 }
 ```
 
@@ -221,17 +221,17 @@ Now all that's left is to delete the messages! It's a simple single line of code
 message.channel.bulkDelete(amount);
 ```
 
-And you not have a working prune command! Test it out!
+And now you have a working prune command! Test it out!
 
 ### Caveats
 
-You should note that there are a few caveats with the .`bulkDelete()` method. The first would be the trying to delete messages older than two weeks, which would normally error. Here's an easy fix for that:
+You should note that there are a few caveats with the .`bulkDelete()` method. The first would be trying to delete messages older than two weeks, which would normally error. Here's an easy fix for that:
 
 ```js
 message.channel.bulkDelete(amount, true);
 ```
 
-The second parameter in the `.bulkDelete()` method will filter out messages older than two weeks if you give it a truthy value. So if there are 50 messages and 25 of them are older than two weeks, it'll only delete the first 25 without throwing an error. However, if all the messages you're trying to delete are older than two weeks, then it will still throw an error. Knowing this, you should catch that error by chaining a `.catch()`.
+The second parameter in the `.bulkDelete()` method will filter out messages older than two weeks if you give it a truth value. So if there are 50 messages and 25 of them are older than two weeks, it'll only delete the first 25 without throwing an error. However, if all the messages you're trying to delete are older than two weeks, then it will still throw an error. Knowing this, you should catch that error by chaining a `.catch()`.
 
 ```js
 message.channel.bulkDelete(amount, true).catch((err) => {
@@ -246,7 +246,7 @@ message.channel.bulkDelete(amount, true).catch((err) => {
 If you aren't familiar with the .catch() method, it catches errors on Promises. Unsure what Promises are? Google around for more info!
 :::
 
-The other caveat with this is that the !prune {number} message you sent will also count towards the amount deleted. This means that if you send !prune 2, it'll delete that message and only one other. There are a couple ways around this, but we'll take the easiest route for the sake of the tutorial. Here are the edits to make to your current code:
+The other caveat with this is that the !prune {number} message you sent will also count towards the amount deleted. This means that if you send !prune 2, it'll delete that message and only one other. There are a couple of ways around this, but we'll take the easiest route for the sake of the tutorial. Here are the edits to make to your current code:
 
 ```diff
 - const amount = parseInt(args[0]);
@@ -268,34 +268,35 @@ If you like me you want your command to look cool right?
 
 Well here are a few things you can add to your code to make it more advanced than what we did above.
 
-First here is the code were working with. Its the working version of the `prune` command.
+First here is the code was working with. It's the working version of the `prune` command.
 
 ```js
  else if (command === "prune") {
-		const amount = parseInt(args[0]) + 1;
+        const amount = parseInt(args[0]) + 1;
 
-		if (isNaN(amount)) {
-			return message.reply("that doesn't seem to be a valid number.");
-		} else if (amount <= 1 || amount > 100) {
-			return message.reply("you need to input a number between 2 and 100.");
-		}
+        if (isNaN(amount)) {
+            return message.reply("that doesn't seem to be a valid number.");
+        } else if (amount <= 1 || amount > 100) {
+            return message.reply("you need to input a number between 2 and 100.");
+        }
 
-		message.channel.bulkDelete(amount, true).catch((err) => {
-			console.error(err);
-			message.channel.send(
-				"there was an error trying to prune messages in this channel!"
-			);
-		});
+        message.channel.bulkDelete(amount, true).catch((err) => {
+            console.error(err);
+            message.channel.send(
+                "there was an error trying to prune messages in this channel!"
+            );
+        });
  }
 ```
 
-Now if you wanted to check how many messages where deleted we can use arguments again in another message method.
+Now if you wanted to check how many messages were deleted we can use arguments again in another message method.
 
 ```js
 message.channel.send(
-			`I have deleted \`${amount}\` messages from ${message.channel.name}!`
-		);
+	`I have deleted \`${amount}\` messages from ${message.channel.name}!`
+);
 ```
+
 ![yes i did it](/img/js/s2/yes_prune_command_exm.png)
 
 Now you can get a success message with more information on what has happened after running that command.
@@ -304,40 +305,40 @@ If you want this success message to delete after a few seconds simply add:
 
 ```js
 .then((m) => {
-			m.delete({timeout: 5000})
-		})
+            m.delete({timeout: 5000})
+        })
 ```
 
-Now When we run this code after `5000` milliseconds (five seconds) the bots message will delete itself.
+Now When we run this code after `5000` milliseconds (five seconds) the bot's message will delete itself.
 
-Finally code: 
+Finally code:
 
 ```js
 else if (command === "prune") {
-		const amount = parseInt(args[0]) + 1;
+        const amount = parseInt(args[0]) + 1;
 
-		if (isNaN(amount)) {
-			return message.reply("that doesn't seem to be a valid number.");
-		} else if (amount <= 1 || amount > 100) {
-			return message.reply("you need to input a number between 2 and 100.");
-		}
+        if (isNaN(amount)) {
+            return message.reply("that doesn't seem to be a valid number.");
+        } else if (amount <= 1 || amount > 100) {
+            return message.reply("you need to input a number between 2 and 100.");
+        }
 
-		message.channel.bulkDelete(amount, true).catch((err) => {
-			console.error(err);
-			message.channel.send(
-				"there was an error trying to prune messages in this channel!"
-			);
-		});
-		message.channel.send(
-			`I have deleted \`${amount}\` messages from ${message.channel.name}!`
-		).then((m) => {
-			m.delete({timeout: 5000})
-		})
-	}
+        message.channel.bulkDelete(amount, true).catch((err) => {
+            console.error(err);
+            message.channel.send(
+                "there was an error trying to prune messages in this channel!"
+            );
+        });
+        message.channel.send(
+            `I have deleted \`${amount}\` messages from ${message.channel.name}!`
+        ).then((m) => {
+            m.delete({timeout: 5000})
+        })
+    }
 ```
 
 Feel free to change and try out new things! Keep on reading.
 
 ## Code
 
-Thanks for reading so far! Remember all the code is avalible in our github repo under [bot exmaples](https://github.com/DeepWebDevelopers/discord-bot-guide/tree/alpha/source/bots).
+Thanks for reading so far! Remember all the code is available in our GitHub repo under [bot exmaples](https://github.com/DeepWebDevelopers/discord-bot-guide/tree/alpha/source/bots).
