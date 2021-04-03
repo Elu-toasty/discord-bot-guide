@@ -17,7 +17,9 @@ Thanks for checking out our GitHub page! The Discord Bot Guide was originally cr
 
 The best way to enjoy our documentation is on the [official website](https://github.com/DeepWebDevelopers/discord-bot-guide). If you wish to, you can view any source code from the website. We don't guarantee with will be 100% readable.
 
+### Bot code 
 
+All our bot exmaple code is in the [Bots folder](./source/bots/).
 
 ### Want to support us?
 
