@@ -35,14 +35,14 @@ If you want to sharpen your skills before starting the docs we can recommend a f
 
 After learning your language on a basic level you can have a lot more fun with the documentation!
 
-### Pick Your language
+## Pick Your language
 
 <!-- Sends the user to a guide -->
 
 - If you want to learn [Javascript](js/s1/doc-byb-js)
-- If you want to learn [Python](py/s1/doc-py-byb)
+- If you want to learn [Python](py/s1/doc-prerequisites-python)
 - If you want to learn [Java](java/doc-prerequisites-java)
-- If you want to learn [Typescript](ts/s1/doc-byb-ts)
+- If you want to learn [Typescript](ts/doc-byb-ts)
 - More coming soon!
 
 ### Helpful Dev Tools
