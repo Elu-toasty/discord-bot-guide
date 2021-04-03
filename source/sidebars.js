@@ -1,6 +1,9 @@
 module.exports = {
 	docs: {
+		// ! Home section of the docs
 		Home: ["home/doc1", "home/doc2", "home/doc3", "home/faq"],
+
+		// ! Javascript Docs
 		Javascript: [
 			//! s1
 			"js/s1/doc-byb-js",
@@ -21,15 +24,16 @@ module.exports = {
 					"js/s2/installings/doc-cmd-args",
 				],
 			},
-			//  ? Command handler files
+			//  ? JS Command handler files
 			{
 				"Command Handler": ["js/cmd/doc-cmd-handler"],
 			},
-			// ? Event handler files
+			// ? JS Event handler files
 			{
 				"Event Handler": ["js/event/doc-event-handler"],
 			},
 		],
+		// ! Python docs
 		Python: [
 			//? Section 1 of py files
 			"py/s1/doc-prerequisites-python",
@@ -37,6 +41,8 @@ module.exports = {
 				// Preperations: [""], - Will added when more py pages are added.
 			},
 		],
+
+		// ! Java docs
 		Java: [
 			//? Java docs
 			"java/doc-prerequisites-java",
@@ -49,12 +55,15 @@ module.exports = {
 				],
 			},
 		],
+
+		// ! Typescript docs
 		TypeScript: [
 			//? TypeScript docs
 			"ts/doc-byb-ts",
 			{
 				"Setup and Installation": [
 					"ts/setup_and_installation/doc-buildingfirstbot-ts",
+					"ts/setup_and_installation/doc-buildingfirstbot-ts-2",
 				],
 			},
 		],
