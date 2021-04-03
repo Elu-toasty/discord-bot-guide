@@ -86,11 +86,11 @@ module.exports = {
 					position: "left",
 				},
 				{ to: "blog", label: "Blog", position: "left" },
-				//? need to add later
+				// need to add later
 				{ label: "Community", position: "left", to: "/comingsoon" },
 				{ to: "comingsoon", label: "About Us", position: "right" },
 
-				//? need to add later
+				// need to add later
 				{
 					to: "team",
 					label: "Team",
@@ -102,7 +102,7 @@ module.exports = {
 					label: "GitHub",
 					position: "right",
 				},
-				// Supports the language change function.
+				// ? Supports the language change function.
 				{
 					type: "localeDropdown",
 					position: "left",
@@ -133,8 +133,8 @@ module.exports = {
 							href: "https://discord.com/invite/NbqBQbaejS",
 						},
 						{
-							label: "Twitter",
-							href: ".",
+							label: "YouTube",
+							href: "http://www.youtube.com/c/ThatGuyJamal",
 						},
 					],
 				},

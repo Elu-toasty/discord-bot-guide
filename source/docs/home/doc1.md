@@ -63,12 +63,16 @@ Here are a few tools that I use on a daily to make life much easier.
 
 ```js
 // Dont mind this ;)
+let docs = window.document().
 function start(docs) {
   await docs.load().then((docs) => {
-    console.log("Documentation Loaded!")
-  }).catch(err) {
-    return console.log(`Enjoy the docs :) ${err}`)
-  }
-}
+    return console.log("Loading Proccess")
+  }).catch((err) => {
+    console.log("Failed to load documentation for user!")
+  })
 
+start(
+  console.log)(
+    `Documents Loaded! Enjoy and star us on github!`)
+)
 ```

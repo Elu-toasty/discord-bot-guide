@@ -1,7 +1,7 @@
 module.exports = {
 	docs: {
 		// ! Home section of the docs
-		Home: ["home/doc1", "home/doc2", "home/doc3", "home/faq"],
+		Home: ["home/doc1", "home/doc2", "home/faq", "home/doc3"],
 
 		// ! Javascript Docs
 		Javascript: [
@@ -31,6 +31,14 @@ module.exports = {
 			// ? JS Event handler files
 			{
 				"Event Handler": ["js/event/doc-event-handler"],
+			},
+			// ? Js Development Doc Files
+			{
+				"Improving Your Dev Environment": [
+					"js/s3/dev/doc-dev-nodemon",
+					"js/s3/dev/doc-dev-scripts",
+					"js/s3/dev/doc-dev-pm2",
+				],
 			},
 		],
 		// ! Python docs
