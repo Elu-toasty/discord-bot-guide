@@ -22,11 +22,12 @@ module.exports = {
 					"js/s2/installings/doc-bot-up",
 					"js/s2/installings/doc-bot-more-cmd",
 					"js/s2/installings/doc-cmd-args",
+					
 				],
 			},
 			//  ? JS Command handler files
 			{
-				"Command Handler": ["js/cmd/doc-cmd-handler"],
+				"Command Handler": ["js/cmd/doc-cmd-handler", 'js/cmd/doc-cmd-handler_page2'],
 			},
 			// ? JS Event handler files
 			{
